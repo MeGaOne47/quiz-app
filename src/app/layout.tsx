@@ -12,7 +12,7 @@ const contentStyle = {
 };
 
 const sidebarStyle = {
-  flex: '0 0 250px', // Điều này sẽ đặt chiều rộng cố định của thanh sidebar
+  // flex: '0 0 250px', // Điều này sẽ đặt chiều rộng cố định của thanh sidebar
 };
 
 const mainContentStyle = {

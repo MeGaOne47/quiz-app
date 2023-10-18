@@ -10,7 +10,7 @@ const CapNhatThongTin = () => {
     birthday: '2000-01-01',
   });
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setUserInfo({
       ...userInfo,
@@ -18,7 +18,7 @@ const CapNhatThongTin = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     // Send updated user information to the server here
     console.log('Updated data:', userInfo);
