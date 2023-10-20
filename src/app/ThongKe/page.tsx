@@ -28,7 +28,7 @@ const Statistics = () => {
         <th>Điểm cao nhất</th>
       </tr>
     </thead>
-    <tbody>
+    {/* <tbody>
       {data.map((item) => (
         <tr key={item.id}>
           <td>{item.examName}</td>
@@ -37,7 +37,7 @@ const Statistics = () => {
           <td>{item.highestScore}</td>
         </tr>
       ))}
-    </tbody>
+    </tbody> */}
   </Table>
 
     </div>
